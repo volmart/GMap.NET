@@ -916,7 +916,7 @@ namespace GMap.NET.WindowsPresentation
             }
         }
 
-        void ForceUpdateOverlays()
+        protected virtual void ForceUpdateOverlays()
         {
             ForceUpdateOverlays(ItemsSource);
         }

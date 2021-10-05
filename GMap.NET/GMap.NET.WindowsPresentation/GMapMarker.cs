@@ -243,7 +243,7 @@ namespace GMap.NET.WindowsPresentation
         ///     dot not call it if you don't really need to ;}
         /// </summary>
         /// <param name="m"></param>
-        internal void ForceUpdateLocalPosition(GMapControl m)
+        public void ForceUpdateLocalPosition(GMapControl m)
         {
             if (m != null)
             {
